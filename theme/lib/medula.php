@@ -333,8 +333,8 @@ function medula_filter_ptags_on_images($content){
  */
 function medula_excerpt_more($more) {
 	global $post;
-	return '...  <a class="excerpt-read-more" href="'. get_permalink($post->ID) .
-		'" title="'.__( 'Read', 'medula-theme' ) . get_the_title($post->ID).'">'.
+	return '...  <a class="excerpt-read-more" href="' . get_permalink($post->ID) .
+		'" title="' . __( 'Read', 'medula-theme' ) . esc_attr( get_the_title($post->ID) ) . '">'.
 		__( 'Read more &raquo;', 'medula-theme' ) .'</a>';
 }
 
