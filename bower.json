@@ -5,7 +5,7 @@
     "susy": "*",
     "include-media": "*",
     "sassy-maps": "*",
-    "modernizr": "*",
+    "modernizr": "https://modernizr.com/download/?-cookies-cssanimations-csscalc-flexbox-notification-svg-touchevents-setclasses",
     "bootstrap-sass-official": "*"
   },
   "ignore": [ "" ],

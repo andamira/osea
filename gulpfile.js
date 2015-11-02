@@ -69,7 +69,7 @@ var source = {
 	//
 	vendor: [
 		'vendor-dl/normalize.css/normalize.css',
-		'vendor-dl/modernizr/modernizr.js',
+		'vendor-dl/modernizr/modernizr.custom.js',
 
 		// Recommended Plugins:
 		// --------------------
