@@ -21,6 +21,9 @@
 
 
 	<?php //A check to auto-include some og:tags in your header, depending on what type of template you are on ?>
+	
+      <?php 
+      
 	if (is_singular( 'post')) {
 
       $name = get_the_title(); 
